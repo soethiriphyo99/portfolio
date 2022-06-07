@@ -1,0 +1,126 @@
+/*==============================
+General
+=================================*/
+body {
+  font-family: "open sens", sans-serif;
+}
+#wrapper {
+  margin: 0 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+header {
+  float: left;
+  margin: 0px 30px 30px 0px; /*top right bottom left*/
+  padding: 5px 0px 0px 0px;
+  width: 100%;
+  border-bottom: 2px solid green;
+  background-color: #6ab47a;
+}
+#logo {
+  text-align: center;
+  margin: 0px;
+}
+#logo h2 {
+  margin-bottom: 3%;
+}
+h1 {
+  font-family: "changa one", sans-serif;
+  margin: 15px 0px; /*top 15px bottom 15px right 0px left 0px*/
+}
+h2 {
+  font-size: 0.75em;
+  margin: 0px 20px 0px 10px;
+  padding: 0px 5px;
+}
+h1 h2 {
+  color: #f5f5f5;
+}
+/*==========================================
+     navigation
+     ==================================*/
+nav {
+  text-align: center;
+  margin: 20px 0px 0px; /*top 20px left,right 0px bottom 0px*/
+  padding: 10px 0px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px 10px;
+  padding: 0px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 20px 30px;
+  font-weight: 700;
+}
+nav a:hover,
+nav a.active {
+  color: #32673f;
+}
+
+/*==========================================
+     project section
+     ================================*/
+#gallery {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+#gallery li:nth-child(4) {
+  clear: both;
+}
+img {
+  width: 100%;
+}
+#gallery li a p {
+  margin: 0px;
+  padding: 5%;
+  font-size: 00.75em;
+  color: #4e5153;
+  text-align: center;
+}
+
+/*==========================================
+    about
+     ================================*/
+.profile-photo {
+  max-width: 30%;
+  display: block;
+  margin: 30px auto 30px;
+}
+
+/*==========================================
+    contact
+     ================================*/
+
+#contact-primary {
+  margin-left: 5%;
+}
+
+/*==========================================
+    footer
+     ================================*/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+footer h5 {
+  text-align: center;
+  color: #4a5055;
+}

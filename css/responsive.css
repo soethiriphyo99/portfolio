@@ -1,0 +1,153 @@
+@media screen and (min-width: 480px) {
+    /*==================
+    potfolio
+    ===============================*/
+    #gallery li {
+        width: 28%;
+    }
+    .profile-photo {
+        float: left;
+        margin: 30px 5% 80px 10px;
+    }
+
+    #contact-primary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+    
+    }
+
+    
+    #contact-secondary {
+        width: 30%;
+        float: right;
+        margin-right: 5%;
+    }
+    #contact-secondary ul{
+        padding: 10px;
+        list-style: none;
+        
+    }
+    #contact-secondary ul li{
+        padding: 2px;
+            list-style: circle;
+        }
+            #contact-secondary h3 {
+                margin-top: 20px;
+            }
+            #about-primary { 
+                width: 50%;
+                float: left;
+                margin: 0 5%;
+            }
+   
+}
+/*==================
+    about and contact detail
+    ===============================*/
+    #about-primary { 
+        width: 100%;
+      
+    }
+    #contact-primary {
+        width: 100%;
+        float: left;
+        margin-left: 5%;
+    
+    }
+    
+   
+    #contact-secondary {
+        width: 40%;
+        float: right;
+        margin-right: 5%;
+    }
+    #contact-secondary ul{
+        padding: 2px;
+        list-style: none;
+        
+    }
+    #contact-secondary ul li{
+        padding: 2px;
+            list-style: circle;
+            margin-right: 10%;
+        }
+            #contact-secondary h3 {
+                margin-top: 20px;
+            }
+                
+@media screen and (min-width: 660px) {
+    #logo {
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+    }
+    nav {
+        background: none;
+        float: right;
+        font-size: 1.125em;
+        margin-right: 5%;
+        text-align: right;
+        width: 45%;}
+        .profile-photo {
+            float: left;
+            margin: 30px 5% 80px 10px;
+    
+        }
+        #contact-primary {
+            width: 40%;
+            float: left;
+            margin-left: 5%;
+        
+        }
+        
+       
+        #contact-secondary {
+            width: 30%;
+            float: right;
+            margin-right: 5%;
+        }
+        #contact-secondary ul{
+            padding: 10px;
+            list-style: none;
+            
+        }
+        #contact-secondary ul li{
+            padding: 2px;
+                list-style: circle;
+            }
+                #contact-secondary h3 {
+                    margin-top: 20px;
+                }
+                #about-primary { 
+                    width: 50%;
+                    float: left;
+                    margin: 0 5%;
+                }
+
+
+}
+@media screen and (min-width: 300px) and (max-width: 640px){
+    #gallery li:nth-child(4){
+        clear: none;}
+
+    nav ul li a{
+        padding: 15px 19px;
+    }
+    #gallery li {
+        float: left;
+        width: 45%;
+        }
+
+    #gallery li:nth-child(3) {
+        clear: both;
+    }
+
+    .profile-photo p {
+        text-align: center;
+        max-width: 100%;
+    }
+
+}
+
